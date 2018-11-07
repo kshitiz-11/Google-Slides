@@ -1,5 +1,5 @@
 import { makeResizableDiv} from './presentation.js';
-
+import {dragElement} from './draggable';
 //console.log("Hi");
 var mapX; 
 CKEDITOR.on( 'instanceReady', function( ev )
@@ -105,7 +105,7 @@ textCursor.addEventListener('click', function(e){
         container.appendChild(parent);
         example_restore_cursor();
         makeResizableDiv();
-        
+        dragElement();
 
         for (var key in mapX) {
             if (mapX.hasOwnProperty(key)) {
