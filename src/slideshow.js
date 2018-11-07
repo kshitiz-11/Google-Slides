@@ -9,7 +9,7 @@ present.addEventListener('click', function(){
 	let elem = document.getElementsByClassName('toggleDiv');
 	for(let i=0; i<elem.length; i++)
 	{
-		if(elem[i].style.display==='block')
+		if(elem[i].style.display==='block' || elem[i].style.display==='')
 		{
 			presentElem = elem[i];
 		}
