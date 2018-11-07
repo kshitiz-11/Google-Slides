@@ -1,29 +1,8 @@
 
-/*Make resizable div by Hung Nguyen*/
-// let textBox = document.getElementsByClassName('textBox');
-// textBox[0].addEventListener('click', function(){
-
-// document.getElementById('toolbar-container').style="display:block";
-
-// })
-
-// function hideToolbar()
-// {
-    
-//     document.getElementById('toolbar-container').style="display:none";
-
-// }
-
-// function showToolbar()
-// {
-    
-//     document.getElementById('toolbar-container').style="display:block";
-
-// }
 
 
 export function makeResizableDiv() {
-  //alert("inside funtion");
+  
     let elements = document.getElementsByClassName("resizable");
 
     for(let i = 0; i<elements.length; i++)
@@ -81,8 +60,7 @@ export function makeResizableDiv() {
     }
     
   }
-  
-  //makeResizableDiv('.resizable');
+
  
 
   
