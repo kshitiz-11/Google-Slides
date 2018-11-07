@@ -1,5 +1,5 @@
 # extra-credit-assignment-ppt-kshitiz11193
-This application provides will facilitate user to create presentation
+This tool facilitate user to create presentation
 
 It provides following functionality:
 
