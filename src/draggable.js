@@ -1,6 +1,4 @@
-// Make the DIV element draggable:
-
-
+// this function makes the DIV element draggable:
 export function dragElement() {
     
     let elements = document.getElementsByClassName("draggable");

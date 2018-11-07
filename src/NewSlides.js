@@ -1,6 +1,8 @@
 var count = 1;
 export var mapX = {"1":"canvas"};
 var canvasValue = 1001;
+
+//this function creates new slides
 export function createNewSlide()
 {
 
@@ -50,15 +52,3 @@ add.addEventListener('click', function(e){
 })
 }
 
-export function displayCanvas()
-{
-    
-    let slideNo = document.getElementsByClassName("slideNo");
-
- for(let i =0; i< slideNo.length; i++)
- {
-
- }
-    
-
-}

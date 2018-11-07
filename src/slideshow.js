@@ -1,4 +1,4 @@
-
+//this function presents the slides in full screen
 export function slideIt(){
 
 let present = 	document.getElementById('presentation');

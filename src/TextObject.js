@@ -3,6 +3,8 @@ import {dragElement} from './draggable';
 var mapX; 
 
 
+//This creates the text objects dynamically and assigns the resizable and draggable functionality to them
+//This function accepts the object mapX which holds the ids of new slides
 export function addTextObject(mapXX){
     mapX = mapXX;
   console.log("inside text obj")  
@@ -83,10 +85,13 @@ textCursor.addEventListener('click', function(e){
 
     }
     
+    //this function changes the mouse cursor to move  
     function change_cursor() {
    
         document.body.style.cursor = "move";
     }
+
+    //this function changes the mouse cursor to default  
     function example_restore_cursor() {
         document.body.style.cursor = 'default';
     }

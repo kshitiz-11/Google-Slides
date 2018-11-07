@@ -3,6 +3,8 @@ import {dragElement} from './draggable';
 
 
 var src;
+//This creates the image objects dynamically and assigns the resizable and draggable functionality to them
+//This function accepts the object mapX which holds the ids of new slides
 export function addImageObject(mapX){
 
   console.log("inside text obj")  
@@ -87,17 +89,20 @@ textCursor.addEventListener('change', function(e){
         }
       
     }
-    
+    //this function returns the image url that users choose to add on slide
     var loadFile = function(event) {
         
        return URL.createObjectURL(event.target.files[0]);
         
       };
 
+    //this function changes the mouse cursor to move  
     function change_cursor() {
    
         document.body.style.cursor = "move";
     }
+
+    //this function reverts the mouse cursor to default  
     function example_restore_cursor() {
         document.body.style.cursor = 'default';
     }

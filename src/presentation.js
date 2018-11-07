@@ -1,6 +1,6 @@
 
 
-
+//This function provides the resizable functionality to the the text and image objects
 export function makeResizableDiv() {
   
     let elements = document.getElementsByClassName("resizable");
